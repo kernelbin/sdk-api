@@ -139,7 +139,7 @@ The height, in pixels, of an individual item in a list box or a menu. Before ret
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">ULONG_PTR</a></b>
 
-The application-defined value associated with the menu item. For a control, this member specifies the value last assigned to the list box or combo box by the <a href="/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a> or <a href="/windows/desktop/Controls/cb-setitemdata">CB_SETITEMDATA</a> message. If the list box or combo box has the LB_HASSTRINGS or CB_HASSTRINGS style, this value is initially zero. Otherwise, this value is initially the value passed to the list box or combo box in the 
+The application-defined value associated with the menu item. For a control, this member specifies the value last assigned to the list box or combo box by the <a href="/windows/desktop/Controls/lb-setitemdata">LB_SETITEMDATA</a> or <a href="/windows/desktop/Controls/cb-setitemdata">CB_SETITEMDATA</a> message. If the list box or combo box has the LBS_HASSTRINGS or CBS_HASSTRINGS style, this value is initially zero. Otherwise, this value is initially the value passed to the list box or combo box in the 
 					<i>lParam</i> parameter of one of the following messages: 
 					
 
